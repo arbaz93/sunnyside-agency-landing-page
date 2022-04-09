@@ -1,0 +1,61 @@
+
+/* this section is for transform brand and stand out form audience */
+.about-info > article {
+  --gap: 0;
+}
+.about-info > article div:nth-child(2) {
+  padding: 4.375rem 6rem;
+  text-align: center;
+  --gap: 2.8125rem;
+}
+
+.about-info {
+  gap: 0 !important;
+}
+.about-info > article {
+  grid-template-rows: 1fr 1fr;
+}
+
+.about-info > article > div:first-child {
+  width: 100%;
+  height: 100%;
+}
+.about-info > article:first-child > div:first-child,
+.about-info > article:last-child > div:first-child {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.about-info > article:first-child > div:first-child {
+  background-color: hsl(50, 100%, 50%);
+  background-image: url(./images/mobile/image-transform.jpg);
+}
+.about-info > article:last-child > div:first-child {
+  background-color: hsl(7, 100%, 71%);
+  background-position: center bottom;
+  background-image: url(./images/mobile/image-stand-out.jpg);
+
+}
+
+@media (min-width: 40rem) {
+  .about-info {
+    min-height: 100vh;
+  }
+  .about-info > article {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+  }  
+  .about-info > article:first-child > div:first-child {
+    background-image: url(./images/desktop/image-transform.jpg);
+    order: 2;
+  }
+  .about-info > article:last-child > div:first-child {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+  
+  } 
+  @media (max-width: 54.5rem){
+    .about-info > article div:nth-child(2) {
+      padding: 3.375rem 5rem;
+    }
+  }
+}
