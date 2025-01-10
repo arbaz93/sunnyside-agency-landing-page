@@ -2,6 +2,7 @@
 
 Welcome to the **Sunnyside Agency** landing page! This project showcases a modern and responsive design for a fictional agency, built using foundational web technologies.  
 ![Sunnyside Agency Desktop Preview](./design/desktop-preview.jpg)
+
 ## Features  
 
 - **Mobile Responsive**: Seamlessly adapts to different screen sizes for an optimal experience on all devices.  
