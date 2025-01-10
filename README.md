@@ -32,10 +32,6 @@ To run this project locally, follow these steps:
 
 If you'd like to contribute to this project, feel free to open an issue or submit a pull request!
 
-## Repository  
-
-The source code for the project can be found at: [GitHub Repository](https://github.com/arbaz93/sunnyside-agency-landing-page)  
-
 ## Acknowledgements  
 
 - The design assets was provided by Frontend Mentor
